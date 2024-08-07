@@ -9,14 +9,14 @@
     "env": {
       "OWNER_NAME": {
         "description": "Name for Bot Owner",
-        "value": "TOXXIC MD",
+        "value": "DAVE MD",
         "required": true
       },
   
       "WELCOME": {
         "description": "put 'false' or 'true' to enable & disable WELCOME ",
         "value": "false",
-        "required": false
+        "required": true
       },
       "USER_IMAGES": {
         "description": "Menu Images",
@@ -40,7 +40,7 @@
       "BOT_NAME": {
         "description": " NAME FOR BOT",
         "required": false,
-        "value": "RIAS_GREMORY-BOT"
+        "value": "DAVE-BOT"
       },
       "TZ": {
         "description": "Put TIME_ZONE according to your location",
@@ -99,15 +99,15 @@
       },
       "PREFIX": {
         "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
-        "value": "."
+        "value": ""
       },
       "OWNER_NUMBER": {
         "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-        "value": "33757054414"
+        "value": "254769279076"
       },
       "SESSION_ID": {
         "description": "put your SESSION_ID here.",
-        "value": ""
+        "value": "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiK0RFSzdqeHUxYVNXS2YxMW8xcTRWbmoxMWpoNE42Z3VBNFlpZTJtSWxsRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibUw3V2lNZm5EM1BLMnJmSEZncDNkS1FlTzlTeGtYZDNjbUp3Q0swT2pHaz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJpQU4vUCtyVTUxaWdMdEF6OEtZT0dlWDlZTytMd1hPS3UzZ2FiSzVlNDA0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI4cE1xVjltblpLbENscVI1WHNxOGZxbkxBZ1lWejZxR3VZYllNU2J0V0drPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InFEeVo2Q3N1S2sxZ2xZdFgzV0VhM3B0TStFTVZWdnlpWGkzNGtDblgwRkE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImEzbU9QRlh4V3U4eWhjdDh5bnBJZjlvREFjcE9mMWlRYkozdmVWMDRFVmM9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUFCSzhJNUlROXlhTFdYYnRkbDAxSVVqSEJaWkZFaGdJcWRJQnViZjUxbz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiTDlJNXZVNG4wT2gxS2x3RWNHY0ZadWt3Z1UyUTJhdnh6dnZZK0hGN0hrbz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Im1WVzE3Qm1XOUR6SCtOM29mY0VONTRGSmZXU0hCUDFzelptSS9IbW9RcGpDMERTUGt3S3orSkVsNlpGMGwwZnVCc0pQems2OExFbHJjc1dlSEwva0JRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NTUsImFkdlNlY3JldEtleSI6ImxFUWRkWUhoL0hkN05kZGREK0RpZm44QVNOTVBwYXkxUkZMWUdDZ1Uzc0E9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjZGOG1jVTgxU2dHcHpFbVdGbWV3OHciLCJwaG9uZUlkIjoiZWQ4NWVkYjUtY2I1NS00YzliLWI0YzgtNjgwZDg1MjAxMzFlIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlF0UkFYRUcwVU9zYWQ4SlNweWZYOHBaWEY4az0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPeGtpNGhtaWs3MThpcURydWs5V3RIeVBma009In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiMUpYR0ZaTlgiLCJtZSI6eyJpZCI6IjI1NDc2OTI3OTA3Njo4NkBzLndoYXRzYXBwLm5ldCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDUHlPa0pBQkVQelF6TFVHR0FZZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiWkhkZEJsTlhwTHo3ZUxBT3UrOXlTcDE4VHpMZkdHbjNiSjZQYlB0VW9qcz0iLCJhY2NvdW50U2lnbmF0dXJlIjoiTjRMa3pNUEpON2pwdVVNSXZtNU9xaElKa0xRSVN3OWkvbk8yTGsrQWtaVUdScW1DbDJpckIvcmRHZWJVWTNLK01SZytaMFhReC8vWXVrRExzUXQ1Q0E9PSIsImRldmljZVNpZ25hdHVyZSI6IlVFSnRGN2ptWmJTZ1Z5cWxRdDF5eXQ4a0J2bS92ZnFIcUVSTnU5T3JFSkViS0tTb243ZkN2bTFZS2VZY3d4REZaME53U1RObm9ndU1uNzhLWml3VkNBPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0NzY5Mjc5MDc2Ojg2QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQldSM1hRWlRWNlM4KzNpd0RydnZja3FkZkU4eTN4aHA5MnllajJ6N1ZLSTcifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjMwMTczNTJ9"
       },
       "MODE": {
         "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
